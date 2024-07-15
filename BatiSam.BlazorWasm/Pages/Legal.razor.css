@@ -1,0 +1,41 @@
+﻿h1 {
+    font-size: 1.375rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.1rem;
+}
+
+.legal-content {
+    padding: 4rem 0;
+    margin: 0 1rem;
+}
+
+.legal-articles {
+    margin-top: 3rem;
+}
+
+    .legal-articles section.legal-article {
+        margin-top: 2rem;
+    }
+
+        .legal-articles section.legal-article p {
+            margin-top: 1rem;
+        }
+
+@media (min-width: 900px) {
+    .legal-content {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1282px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+}

@@ -1,0 +1,447 @@
+﻿/* Headings */
+h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+/* Hero */
+.hero-container {
+    background-color: var(--background-color);
+    padding-bottom: 5rem;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: var(--hero-gradient), url('/images/btp.webp');
+    background-size: cover;
+    min-height: 660px;
+}
+
+    .hero .welcome-message {
+        color: #f7f7f7;
+        text-shadow: 0 1px 3px rgba(0, 0, 0, .541);
+        max-width: 600px;
+        margin: 0 1.875rem;
+        visibility: hidden;
+        animation: rise 1.5s ease-out forwards;
+        animation-delay: 0.3s;
+    }
+
+@keyframes rise {
+    0% {
+        transform: translateY(30%);
+        opacity: 0;
+        visibility: visible;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.hero .welcome-message h1 {
+    font-size: 2.625rem;
+    text-align: center;
+}
+
+.hero .welcome-message p {
+    color: var(--secondary-color);
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* Contacts */
+.contacts {
+    background-color: #ffffff;
+    box-shadow: 0px 17px 69px 0px rgba(114, 114, 114, .3);
+    padding: 1rem;
+}
+
+    .contacts .contact {
+        display: flex;
+        flex-direction: row;
+        padding: 1.5rem 0;
+        gap: 2rem;
+    }
+
+        .contacts .contact .title {
+            font-size: 1rem;
+            font-weight: 800;
+        }
+
+        .contacts .contact ion-icon {
+            color: var(--secondary-color);
+            background-color: var(--primary-color);
+            border-radius: 4px;
+            padding: .5rem;
+            font-size: 2rem;
+            margin-top: .5rem;
+        }
+
+        .contacts .contact p {
+            margin-top: .3rem;
+        }
+
+/* Main description */
+.presentation-background {
+    background-color: var(--background-color);
+}
+
+.presentation-container {
+    margin: auto;
+}
+
+.presentation {
+    padding-bottom: 4.5rem;
+    margin: 0 1rem;
+}
+
+    .presentation .main-description {
+        gap: 3rem;
+    }
+
+    .presentation .details {
+        line-height: 1.875rem;
+    }
+
+        .presentation .details p {
+            margin-top: 1rem;
+        }
+
+    .presentation .processes {
+        margin-top: 1rem;
+    }
+
+        .presentation .processes .process {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 3rem;
+        }
+
+            .presentation .processes .process ion-icon {
+                font-size: 2rem;
+                color: var(--secondary-color);
+                background-color: var(--primary-color);
+                border-radius: 4px;
+                padding: .5rem;
+            }
+
+            .presentation .processes .process p {
+                margin-top: .7rem;
+                font-weight: 600;
+            }
+
+/* Domains */
+.domains .domain.description {
+    line-height: 1.875rem;
+    background-color: #ffffff;
+    padding: 3.75rem 1.875rem;
+}
+
+    .domains .domain.description h2 {
+        font-size: 1.375rem;
+        font-weight: 600;
+    }
+
+    .domains .domain.description p {
+        margin-top: 2.8125rem;
+    }
+
+    .domains .domain.description button {
+        padding: 1.25rem;
+        margin-top: 2rem;
+    }
+
+.domains .domain.picture {
+    background-size: cover;
+    background-position: center;
+    min-height: 100vw;
+}
+
+    .domains .domain.picture.masonry {
+        background-image: url('/images/masonry.webp');
+    }
+
+    .domains .domain.picture.renovation {
+        background-image: url('/images/renovation.webp');
+    }
+
+/* Subdomains */
+.subdomains-background {
+    color: #f7f7f7;
+    background-color: var(--primary-color);
+}
+
+.subdomains {
+    padding: 7rem 0;
+}
+
+    .subdomains .subdomain {
+        display: grid;
+        grid-template-rows: 1fr auto;
+        background-position: center;
+        background-size: cover;
+        min-height: 450px;
+        padding: 2rem;
+        margin: 1rem;
+    }
+
+        .subdomains .subdomain section .content {
+            text-shadow: 0 1px 3px rgba(0, 0, 0, .541);
+            margin-top: 1.5rem;
+        }
+
+            .subdomains .subdomain section .content .title {
+                font-size: 1.2rem;
+                font-weight: 800;
+            }
+
+            .subdomains .subdomain section .content p {
+                line-height: 1.875rem;
+                margin-top: .5rem;
+            }
+
+        .subdomains .subdomain.debris {
+            background-image: var(--subdomain-gradient), url('/images/bricks.webp');
+        }
+
+        .subdomains .subdomain.plan {
+            background-image: var(--subdomain-gradient), url('/images/coupes.webp');
+        }
+
+        .subdomains .subdomain.expert {
+            background-image: var(--subdomain-gradient), url('/images/tools.webp');
+        }
+
+@media (min-width: 700px) {
+    /* Headings */
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .presentation .punchline,
+    .presentation .details {
+        padding: 1.25rem;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1282px) {
+    /* Headings */
+    h2 {
+        font-size: 3rem;
+    }
+
+    /* Hero */
+    .hero .welcome-message h1 {
+        font-size: 3rem;
+    }
+
+    .hero .welcome-message p {
+        font-size: 1.25rem;
+        margin-top: .5rem;
+    }
+
+    /* Main description */
+    .presentation {
+        padding-bottom: 8rem;
+    }
+
+        .presentation .processes {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 4rem 3rem 0 3rem;
+        }
+
+            .presentation .processes .process ion-icon {
+                font-size: 2.25rem;
+            }
+
+    /* Domains */
+    .domains .domain.picture {
+        min-height: 300px;
+    }
+
+    .domains .domain.description {
+        padding: 7rem;
+    }
+
+        .domains .domain.description h2 {
+            font-size: 2.5rem;
+        }
+
+        .domains .domain.description p {
+            margin-top: 3rem;
+        }
+
+    .masonry.picture {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .masonry.description {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+    .renovation.picture {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+
+    .renovation.description {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+}
+
+@media (min-width: 900px) {
+    /* Contacts */
+    .contacts {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 1100px;
+        padding: 2rem 3rem;
+        margin-top: -50px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+        .contacts .contact {
+            justify-content: center;
+        }
+
+            .contacts .contact .title {
+                font-size: 1.2rem;
+            }
+
+            .contacts .contact ion-icon {
+                font-size: 2.25rem;
+            }
+
+            .contacts .contact:last-child {
+                margin-right: 30px
+            }
+
+    /* Processes */
+    .presentation .processes .process ion-icon {
+        font-size: 2.25rem;
+    }
+
+    /* Subdomains */
+    .subdomains {
+        padding: 8rem 0;
+    }
+
+    .subdomains {
+        display: flex;
+        flex-direction: row;
+    }
+
+        .subdomains .subdomain {
+            width: 33%;
+        }
+}
+
+@media (min-width: 1282px) {
+    /* Headings */
+    h2 {
+        font-size: 4rem;
+    }
+
+    /* Hero */
+    .hero .welcome-message h1 {
+        font-size: 4rem;
+    }
+
+    .hero .welcome-message p {
+        font-size: 1.25rem;
+        margin-top: .5rem;
+    }
+
+    /* Contacts */
+    .contacts {
+        font-size: 1.2rem;
+    }
+
+        .contacts .contact ion-icon {
+            font-size: 2.5rem;
+        }
+
+    /* Main description */
+    .presentation {
+        max-width: 1302px;
+        padding-bottom: 8rem;
+    }
+
+        .presentation .main-description {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .presentation .processes {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 4rem 3rem 0 3rem;
+        }
+
+            .presentation .processes .process ion-icon {
+                font-size: 2.5rem;
+            }
+
+    /* Domains */
+    .domains {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+        .domains .domain.picture {
+            min-height: 0;
+        }
+
+        .domains .domain.description {
+            padding: 7rem;
+        }
+
+            .domains .domain.description h2 {
+                font-size: 3rem;
+            }
+
+            .domains .domain.description p {
+                margin-top: 3rem;
+            }
+
+    .masonry.picture {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .masonry.description {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+    .renovation.picture {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+
+    .renovation.description {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+}
+
+/* Animations */
+.presentation, .subdomains {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out 0.25s, transform 1s ease-out 0.25s;
+}
+
+    .presentation.visible, .subdomains.visible {
+        opacity: 1;
+        transform: translateY(0);
+    }

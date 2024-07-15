@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /css/
+Allow: /images/
+Allow: /scripts/
+Allow: /favicon.png
+Allow: /icon-192.png
+Allow: /index.html
+
+# Block specific user-agent
+User-agent: BadBot
+Disallow: /
+
+# Sitemap
+Sitemap: https://batisam-construction.fr

@@ -1,0 +1,76 @@
+:root {
+    --primary-color: #544d49;
+    --secondary-color: #e6eff8;
+    --font-color: #313131;
+    --background-color: #f0f0f0;
+    --hero-gradient: linear-gradient(180deg,rgba(0,0,0,.34) 0%,rgba(0,0,0,.34) 99%);
+    --subdomain-gradient: linear-gradient(180deg, rgba(34,193,195,0) 50%, rgba(84,77,73,.8295693277310925) 80%, rgba(84,77,73,1) 100%);
+    --max-width: 1282px;
+}
+
+body {
+    display: none;
+    color: var(--font-color);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    margin: 0;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+button {
+    color: var(--secondary-color);
+    font-weight: 600;
+    background-color: var(--font-color);
+    border: none;
+    padding: .7rem;
+    cursor: pointer;
+    font-size: .875rem;
+}
+
+a:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+a:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+/* Error */
+#blazor-error-ui {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.blazor-error-boundary {
+    padding: 1rem 1rem 1rem 3.7rem;
+    color: white;
+}
+
+    .blazor-error-boundary::after {
+        content: "Une erreur est survenue."
+    }
+
+@media (min-width: 700px) {
+    .custom-width {
+        max-width: 1250px;
+        margin: auto;
+    }
+}
