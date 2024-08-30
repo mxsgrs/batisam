@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+
+  --primary-color: #544d49;
+  --secondary-color: #e6eff8;
+  --font-color: #313131;
+  --background-color: #f0f0f0;
+  --hero-gradient: linear-gradient(180deg,rgba(0,0,0,.34) 0%,rgba(0,0,0,.34) 99%);
+  --subdomain-gradient: linear-gradient(180deg, rgba(34,193,195,0) 50%, rgba(84,77,73,.8295693277310925) 80%, rgba(84,77,73,1) 100%);
+  --subdomain-shadow: 0 1px 3px rgba(0, 0, 0, .541);
+  --max-width: 1282px;
+}
+
+body {
+  color: var(--font-color);
+  background: #fff;
+}
+
+@keyframes rise {
+  0% {
+    transform: translateY(30%);
+    opacity: 0;
+    visibility: visible;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.rise-up-animation {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.541);
+  visibility: hidden;
+  animation: rise 1.5s ease-out forwards;
+  animation-delay: 0.3s;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
