@@ -9,14 +9,13 @@ export default function Home() {
   return (
     <div>
       <div className="bg-background-color pb-20">
-        {/* style="background-image: var(--hero-gradient), url('/images/btp.webp');" */}
-        <div className="flex items-center justify-center bg-[url('/images/btp.webp')] bg-cover bg-no-repeat min-h-[660px]">
-          <section className="text-f7f7f7 max-w-[600px] mx-7 invisible animate-rise delay-[0.3s]">
-            <h1 className="text-2xl sm:text-3xl md:text-3xl lg:text-3xl text-center font-semibold">Construisez votre avenir avec nous.</h1>
-            <p className="text-secondary-color text-center mt-4 sm:mt-2 sm:text-xl">Découvrez notre entreprise de maçonnerie.</p>
+        <div className="flex items-center justify-center bg-[linear-gradient(to_top,rgba(0,0,0,.34),rgba(0,0,0,.34)),url('/images/btp.webp')] bg-cover bg-no-repeat min-h-[660px]">
+          <section className="text-white max-w-2xl mx-7 rise-up-animation">
+            <h1 className="text-2xl text-center font-bold md:text-6xl">Construisez votre avenir avec nous.</h1>
+            <p className="text-secondary text-center mt-4 md:text-2xl">Découvrez notre entreprise de maçonnerie.</p>
           </section>
         </div>
-        <div className="bg-white shadow-lg py-4 sm:flex sm:justify-between sm:max-w-[1100px] sm:px-6 sm:mt-[-50px] mx-auto">
+        <div className="bg-white shadow-lg py-4 sm:flex sm:justify-between sm:max-w-6xl sm:px-6 sm:mt-[-50px] mx-auto">
           <div className="flex flex-col sm:flex-row sm:justify-center gap-8 py-6">
             <div className="flex flex-row gap-8">
               {/* <ion-icon name="home-outline" className="text-secondary-color bg-primary-color rounded p-2 text-2xl mt-2 sm:text-3xl"></ion-icon> */}
@@ -89,7 +88,7 @@ export default function Home() {
             <p className="mt-11 sm:mt-12">
               BATISAM est une société de maçonnerie réputée offrant une gamme complète de services de construction pour répondre à tous vos besoins. Spécialisée dans la construction neuve, la rénovation et la restauration, l'entreprise excelle dans la réalisation de projets résidentiels, commerciaux et industriels. Les services incluent la pose de briques, de pierres et de blocs, ainsi que la construction de murs porteurs et de fondations. BATISAM s'engage à utiliser des matériaux de haute qualité et à respecter les délais impartis. Avec une équipe de professionnels qualifiés, l'entreprise garantit des travaux durables et conformes aux normes en vigueur.
             </p>
-            <button className="text-sm text-white bg-font-color px-6 py-3 mt-8">INFORMATIONS</button>
+            <button className="text-sm font-semibold text-white bg-font-color px-6 py-3 mt-8">INFORMATIONS</button>
           </section>
         </div>
         <div className="bg-[url('/images/renovation.webp')] bg-cover bg-center min-h-[100vw] sm:min-h-[300px]"></div>
@@ -99,37 +98,34 @@ export default function Home() {
             <p className="mt-11 sm:mt-12">
               BATISAM offre des services complets de rénovation pour transformer et moderniser vos espaces résidentiels et commerciaux. Spécialisée dans la rénovation intérieure et extérieure, l'entreprise s'occupe de la démolition, de la reconstruction, de la pose de nouveaux revêtements et de l'isolation. Les artisans de BATISAM travaillent avec soin pour préserver le caractère original des bâtiments tout en intégrant des éléments modernes. Qu'il s'agisse de rénover une cuisine, une salle de bains, ou de réaménager un espace complet, l'entreprise garantit des résultats impeccables, respectant les normes et vos attentes. Leur expertise assure des travaux de qualité, réalisés dans les délais impartis.
             </p>
-            <button className="text-sm text-white bg-font-color px-6 py-3 mt-8">DÉTAILS</button>
+            <button className="text-sm font-semibold text-white bg-font-color px-6 py-3 mt-8">DÉTAILS</button>
           </section>
         </div>
       </div>
 
       <div className="text-white bg-primary-color text-f7f7f7">
         <div className="py-28 sm:flex sm:flex-row sm:w-full">
-          {/* style="background-image: var(--subdomain-gradient), url('/images/bricks.webp');" */}
-          <div className="bg-[url('/images/bricks.webp')] grid grid-rows-1 sm:flex-1 bg-cover bg-center min-h-[450px] p-8 m-4">
-            <section>
-              <button className="text-sm bg-font-color px-4 p-3">INFOS</button>
+          <div className="bg-[linear-gradient(to_bottom,rgba(34,193,195,0),rgba(84,77,73,.83)),url('/images/bricks.webp')] grid grid-rows-1 sm:flex-1 bg-cover bg-center min-h-[450px] p-8 m-4">
+            <section className="mt-auto">
+              <button className="text-sm font-semibold bg-font-color px-4 p-3">INFOS</button>
               <div className="mt-6 text-shadow-sm">
                 <div className="text-lg font-extrabold">Durabilité</div>
                 <p className="mt-2">Utilisation de matériaux recyclés et traitement des débris.</p>
               </div>
             </section>
           </div>
-          {/* style="background-image: var(--subdomain-gradient), url('/images/coupes.webp');" */}
-          <div className="bg-[url('/images/coupes.webp')] grid grid-rows-1 sm:flex-1 bg-cover bg-center min-h-[450px] p-8 m-4">
-            <section>
-              <button className="text-sm bg-font-color px-4 p-3">INFOS</button>
+          <div className="bg-[linear-gradient(to_bottom,rgba(34,193,195,0),rgba(84,77,73,.83)),url('/images/coupes.webp')] grid grid-rows-1 sm:flex-1 bg-cover bg-center min-h-[450px] p-8 m-4">
+          <section className="mt-auto">
+              <button className="text-sm font-semibold bg-font-color px-4 p-3">INFOS</button>
               <div className="mt-6 text-shadow-sm">
                 <div className="text-lg font-extrabold">Écoute</div>
                 <p className="mt-2">Adaptation à votre environnement et travail en coordination avec l'architecte.</p>
               </div>
             </section>
           </div>
-          {/* style="background-image: var(--subdomain-gradient), url('/images/coupes.webp');" */}
-          <div className="bg-[url('/images/tools.webp')] grid grid-rows-1 sm:flex-1 bg-cover bg-center min-h-[450px] p-8 m-4">
-            <section>
-              <button className="text-sm bg-font-color px-4 p-3">INFOS</button>
+          <div className="bg-[linear-gradient(to_bottom,rgba(34,193,195,0),rgba(84,77,73,.83)),url('/images/tools.webp')] grid grid-rows-1 sm:flex-1 bg-cover bg-center min-h-[450px] p-8 m-4">
+          <section className="mt-auto">
+              <button className="text-sm font-semibold bg-font-color px-4 p-3">INFOS</button>
               <div className="mt-6 text-shadow-sm">
                 <div className="text-lg font-extrabold">Écoute</div>
                 <p className="mt-2">Adaptation à votre environnement et travail en coordination avec l'architecte.</p>

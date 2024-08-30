@@ -26,6 +26,26 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+@keyframes rise {
+  0% {
+    transform: translateY(30%);
+    opacity: 0;
+    visibility: visible;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.rise-up-animation {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.541);
+  visibility: hidden;
+  animation: rise 1.5s ease-out forwards;
+  animation-delay: 0.3s;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
