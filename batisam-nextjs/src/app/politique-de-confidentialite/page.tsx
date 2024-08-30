@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 export default function Page() {
     return (
         <div className="max-w-screen-xl mx-auto">
-            <div className="max-w-64 sm:max-w-xl md:max-w-2xl py-16 mx-4">
+            <div className="sm:max-w-xl md:max-w-2xl py-16 mx-4">
                 <h1 className="text-xl font-semibold">Politique de confidentialité</h1>
                 <div className="mt-12">
                     <section className="mt-8">
