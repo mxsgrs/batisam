@@ -1,9 +1,0 @@
-User-agent: *
-Allow: /css/
-Allow: /fonts/
-Allow: /images/
-Allow: /scripts/
-Allow: /index.html
-
-# Sitemap
-Sitemap: https://batisam-construction.fr/sitemap.xml
