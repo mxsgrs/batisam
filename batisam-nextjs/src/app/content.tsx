@@ -4,18 +4,17 @@ import { HomeIcon, EnvelopeIcon, PhoneIcon, DocumentTextIcon, CalendarDaysIcon, 
 import { useState, useEffect } from "react";
 
 export default function Content() {
-    const [isImageLoaded, setIsImageLoaded] = useState(false);
-
+    const [isImageLoaded, setIsImageLoaded] = useState(false)
+  
     useEffect(() => {
-        document.body.style.display = 'none';
-
-        const img = new Image();
-        img.src = '/images/btp.webp';
-        img.onload = () => {
-            setIsImageLoaded(true);
-            document.body.style.display = 'block';
-        };
-    }, []);
+        const img = new Image()
+        img.src = '/images/btp.webp'
+        img.onload = () => setIsImageLoaded(true)
+    }, [])
+  
+    if (!isImageLoaded) {
+      return null
+    }
 
     return (
         <div>
