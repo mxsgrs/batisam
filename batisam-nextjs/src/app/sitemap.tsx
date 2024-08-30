@@ -5,19 +5,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: 'https://batisam-construction.fr',
       lastModified: new Date(),
-      changeFrequency: 'yearly',
+      changeFrequency: 'monthly',
       priority: 1
     },
     {
       url: 'https://batisam-construction.fr/mentions-legales',
       lastModified: new Date(),
-      changeFrequency: 'yearly',
+      changeFrequency: 'monthly',
       priority: 1
     },
     {
       url: 'https://batisam-construction.fr/politique-de-confidentialite',
       lastModified: new Date(),
-      changeFrequency: 'yearly',
+      changeFrequency: 'monthly',
       priority: 1
     },
   ]
