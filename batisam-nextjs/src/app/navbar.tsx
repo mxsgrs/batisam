@@ -1,4 +1,3 @@
-import Image from "next/image"
 import Link from "next/link";
 
 import localFont from 'next/font/local'
@@ -8,9 +7,9 @@ export default function Navbar() {
     return (
         <div className="bg-primary-color">
             <div className="max-w-screen-xl mx-auto">
-                <div className="flex flex-row items-end text-white py-8 mx-2">
-                    <Link className={`lg:text-6xl font-semibold ${bebasNeue.className}`} href="/">BATISAM</Link>
-                    <Image className="pl-2 mb-[10px]" src="/images/batisam-small.png" width={64} height={64} alt="BATISAM logo" />
+                <div className="flex flex-row items-end text-white py-8 mx-4">
+                    <Link className={`text-5xl lg:text-6xl font-semibold ${bebasNeue.className}`} href="/">BATISAM</Link>
+                    <img className="w-10 lg:w-16 h-10 lg:h-16 ml-1 lg:ml-2 mb-[9px] lg:mb-[10px]" src="/images/batisam-small.png" alt="logo" />
                 </div>
             </div>
         </div>

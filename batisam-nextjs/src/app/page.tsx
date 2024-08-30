@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { HomeIcon, EnvelopeIcon, PhoneIcon, DocumentTextIcon, CalendarDaysIcon, FaceSmileIcon } from "@heroicons/react/24/outline";
 
 export const metadata: Metadata = {
   title: "Acceuil | BATISAM: Construisez votre avenir avec nous.",
@@ -15,24 +16,24 @@ export default function Home() {
             <p className="text-secondary text-center mt-4 md:text-2xl">Découvrez notre entreprise de maçonnerie.</p>
           </section>
         </div>
-        <div className="bg-white shadow-lg py-4 sm:flex sm:justify-between sm:max-w-6xl sm:px-6 sm:mt-[-50px] mx-auto">
-          <div className="flex flex-col sm:flex-row sm:justify-center gap-8 py-6">
+        <div className="bg-white shadow-lg py-4 sm:max-w-7xl sm:px-6 sm:mt-[-50px] mx-auto">
+          <div className="sm:flex sm:flex-row sm:justify-between gap-8 p-10 mr-6">
             <div className="flex flex-row gap-8">
-              {/* <ion-icon name="home-outline" className="text-secondary-color bg-primary-color rounded p-2 text-2xl mt-2 sm:text-3xl"></ion-icon> */}
+              <HomeIcon className="size-10 text-secondary bg-primary-color rounded p-2 mt-2 sm:size-14" />
               <section>
                 <div className="text-base font-extrabold sm:text-xl">Adresse</div>
-                <p className="mt-1">49 Avenue Jean Jaurès \n 84290 Sainte-Cécile-les-Vignes</p>
+                <p className="mt-1">49 Avenue Jean Jaurès <br />84290 Sainte-Cécile-les-Vignes</p>
               </section>
             </div>
             <div className="flex flex-row gap-8">
-              {/* <ion-icon name="mail-outline" className="text-secondary-color bg-primary-color rounded p-2 text-2xl mt-2 sm:text-3xl"></ion-icon> */}
+              <EnvelopeIcon className="size-10 text-secondary bg-primary-color rounded p-2 mt-2 sm:size-14" />
               <section>
                 <div className="text-base font-extrabold sm:text-xl">Mail</div>
                 <p className="mt-1">batisam@gmail.com</p>
               </section>
             </div>
             <div className="flex flex-row gap-8">
-              {/* <ion-icon name="call-outline" className="text-secondary-color bg-primary-color rounded p-2 text-2xl mt-2 sm:text-3xl"></ion-icon> */}
+              <PhoneIcon className="size-10 text-secondary bg-primary-color rounded p-2 mt-2 sm:size-14" />
               <section>
                 <div className="text-base font-extrabold sm:text-xl">Téléphone</div>
                 <p className="mt-1">83 89 82 01 98</p>
@@ -43,13 +44,13 @@ export default function Home() {
       </div>
 
       <div className="bg-background-color">
-        <div className="mx-auto">
+        <div className="max-w-screen-xl mx-auto">
           <div className="pb-18 mx-4 sm:pb-32">
-            <section className="gap-12 sm:gap-16">
+            <section className="gap-12 lg:flex lg:flex-row sm:gap-16">
               <div className="pb-5 px-5 sm:pb-5 sm:px-5">
-                <h2 className="text-6xl sm:text-6xl font-semibold">Les professionels pour vos travaux de maçonnerie.</h2>
+                <h2 className="text-4xl/[3rem] sm:text-6xl/[5rem] font-semibold">Les professionels pour vos travaux de maçonnerie.</h2>
               </div>
-              <div className="leading-7 sm:leading-7">
+              <div className="leading-8 p-5">
                 <p className="mt-4">
                   BATISAM est une entreprise de maçonnerie renommée, spécialisée dans la construction et la rénovation de bâtiments résidentiels et commerciaux. Forte de plusieurs années d'expérience, elle se distingue par la qualité de ses réalisations et son souci du détail. L'équipe de BATISAM, composée de maçons qualifiés et passionnés, utilise des matériaux de première qualité pour garantir la durabilité et l'esthétique des ouvrages.
                 </p>
@@ -60,19 +61,19 @@ export default function Home() {
             </section>
             <section className="mt-4 sm:flex sm:justify-between sm:mx-12 sm:mt-16">
               <div className="flex flex-col items-center mt-12">
-                {/* <ion-icon name="document-text-outline" className="text-secondary-color bg-primary-color rounded p-2 text-2xl sm:text-3xl"></ion-icon> */}
+                <DocumentTextIcon className="size-10 text-secondary bg-primary-color rounded p-2 mt-2 sm:size-14" />
                 <p className="mt-3 font-semibold">Commande</p>
               </div>
               <div className="flex flex-col items-center mt-12">
-                {/* <ion-icon name="calendar-outline" className="text-secondary-color bg-primary-color rounded p-2 text-2xl sm:text-3xl"></ion-icon> */}
+                <CalendarDaysIcon className="size-10 text-secondary bg-primary-color rounded p-2 mt-2 sm:size-14" />
                 <p className="mt-3 font-semibold">Planification</p>
               </div>
               <div className="flex flex-col items-center mt-12">
-                {/* <ion-icon name="home-outline" className="text-secondary-color bg-primary-color rounded p-2 text-2xl sm:text-3xl"></ion-icon> */}
+                <HomeIcon className="size-10 text-secondary bg-primary-color rounded p-2 mt-2 sm:size-14" />
                 <p className="mt-3 font-semibold">Travaux</p>
               </div>
               <div className="flex flex-col items-center mt-12">
-                {/* <ion-icon name="happy-outline" className="text-secondary-color bg-primary-color rounded p-2 text-2xl sm:text-3xl"></ion-icon> */}
+                <FaceSmileIcon className="size-10 text-secondary bg-primary-color rounded p-2 mt-2 sm:size-14" />
                 <p className="mt-3 font-semibold">Profitez</p>
               </div>
             </section>
@@ -80,9 +81,9 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2">
-        <div className="bg-[url('/images/masonry.webp')] bg-cover bg-center min-h-[100vw] sm:min-h-[300px]"></div>
-        <div className="bg-white py-15 sm:py-28 px-7 sm:px-28 leading-7">
+      <div className="sm:grid sm:grid-cols-2">
+        <div className="bg-[url('/images/masonry.webp')] bg-cover bg-center min-h-[100vw] sm:min-h-[300px] sm:order-1"></div>
+        <div className="bg-white px-7 py-20 sm:px-28 sm:py-28 leading-7 sm:order-2">
           <section>
             <h2 className="text-2xl md:text-5xl font-semibold">Construction</h2>
             <p className="mt-11 sm:mt-12">
@@ -91,8 +92,8 @@ export default function Home() {
             <button className="text-sm font-semibold text-white bg-font-color px-6 py-3 mt-8">INFORMATIONS</button>
           </section>
         </div>
-        <div className="bg-[url('/images/renovation.webp')] bg-cover bg-center min-h-[100vw] sm:min-h-[300px]"></div>
-        <div className="bg-white py-15 sm:py-28 px-7 sm:px-28 leading-7">
+        <div className="bg-[url('/images/renovation.webp')] bg-cover bg-center min-h-[100vw] sm:min-h-[300px] sm:order-4"></div>
+        <div className="bg-white px-7 py-20 sm:px-28 sm:py-28 leading-7 sm:order-3">
           <section>
             <h2 className="text-2xl md:text-5xl font-semibold">Renovation</h2>
             <p className="mt-11 sm:mt-12">
@@ -115,7 +116,7 @@ export default function Home() {
             </section>
           </div>
           <div className="bg-[linear-gradient(to_bottom,rgba(34,193,195,0),rgba(84,77,73,.83)),url('/images/coupes.webp')] grid grid-rows-1 sm:flex-1 bg-cover bg-center min-h-[450px] p-8 m-4">
-          <section className="mt-auto">
+            <section className="mt-auto">
               <button className="text-sm font-semibold bg-font-color px-4 p-3">INFOS</button>
               <div className="mt-6 text-shadow-sm">
                 <div className="text-lg font-extrabold">Écoute</div>
@@ -124,7 +125,7 @@ export default function Home() {
             </section>
           </div>
           <div className="bg-[linear-gradient(to_bottom,rgba(34,193,195,0),rgba(84,77,73,.83)),url('/images/tools.webp')] grid grid-rows-1 sm:flex-1 bg-cover bg-center min-h-[450px] p-8 m-4">
-          <section className="mt-auto">
+            <section className="mt-auto">
               <button className="text-sm font-semibold bg-font-color px-4 p-3">INFOS</button>
               <div className="mt-6 text-shadow-sm">
                 <div className="text-lg font-extrabold">Écoute</div>
