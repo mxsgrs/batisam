@@ -82,34 +82,34 @@ export default function Home() {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2">
-        <div className="bg-[url('/images/masonry.webp')] bg-cover bg-center min-h-[100vw] sm:min-h-[300px]"></div> 
+        <div className="bg-[url('/images/masonry.webp')] bg-cover bg-center min-h-[100vw] sm:min-h-[300px]"></div>
         <div className="bg-white py-15 sm:py-28 px-7 sm:px-28 leading-7">
           <section>
-            <h2 className="text-lg sm:text-2xl font-semibold">Construction</h2>
+            <h2 className="text-2xl md:text-5xl font-semibold">Construction</h2>
             <p className="mt-11 sm:mt-12">
               BATISAM est une société de maçonnerie réputée offrant une gamme complète de services de construction pour répondre à tous vos besoins. Spécialisée dans la construction neuve, la rénovation et la restauration, l'entreprise excelle dans la réalisation de projets résidentiels, commerciaux et industriels. Les services incluent la pose de briques, de pierres et de blocs, ainsi que la construction de murs porteurs et de fondations. BATISAM s'engage à utiliser des matériaux de haute qualité et à respecter les délais impartis. Avec une équipe de professionnels qualifiés, l'entreprise garantit des travaux durables et conformes aux normes en vigueur.
             </p>
-            <button className="py-5 mt-8">INFORMATIONS</button>
+            <button className="text-sm text-white bg-font-color px-6 py-3 mt-8">INFORMATIONS</button>
           </section>
         </div>
         <div className="bg-[url('/images/renovation.webp')] bg-cover bg-center min-h-[100vw] sm:min-h-[300px]"></div>
         <div className="bg-white py-15 sm:py-28 px-7 sm:px-28 leading-7">
           <section>
-            <h2 className="text-lg sm:text-2xl font-semibold">Renovation</h2>
+            <h2 className="text-2xl md:text-5xl font-semibold">Renovation</h2>
             <p className="mt-11 sm:mt-12">
               BATISAM offre des services complets de rénovation pour transformer et moderniser vos espaces résidentiels et commerciaux. Spécialisée dans la rénovation intérieure et extérieure, l'entreprise s'occupe de la démolition, de la reconstruction, de la pose de nouveaux revêtements et de l'isolation. Les artisans de BATISAM travaillent avec soin pour préserver le caractère original des bâtiments tout en intégrant des éléments modernes. Qu'il s'agisse de rénover une cuisine, une salle de bains, ou de réaménager un espace complet, l'entreprise garantit des résultats impeccables, respectant les normes et vos attentes. Leur expertise assure des travaux de qualité, réalisés dans les délais impartis.
             </p>
-            <button className="py-5 mt-8">DÉTAILS</button>
+            <button className="text-sm text-white bg-font-color px-6 py-3 mt-8">DÉTAILS</button>
           </section>
         </div>
       </div>
 
-      <div className="bg-primary-color text-f7f7f7">
+      <div className="text-white bg-primary-color text-f7f7f7">
         <div className="py-28 sm:flex sm:flex-row sm:w-full">
-        {/* style="background-image: var(--subdomain-gradient), url('/images/bricks.webp');" */}
+          {/* style="background-image: var(--subdomain-gradient), url('/images/bricks.webp');" */}
           <div className="bg-[url('/images/bricks.webp')] grid grid-rows-1 sm:flex-1 bg-cover bg-center min-h-[450px] p-8 m-4">
             <section>
-              <button>INFOS</button>
+              <button className="text-sm bg-font-color px-4 p-3">INFOS</button>
               <div className="mt-6 text-shadow-sm">
                 <div className="text-lg font-extrabold">Durabilité</div>
                 <p className="mt-2">Utilisation de matériaux recyclés et traitement des débris.</p>
@@ -119,7 +119,17 @@ export default function Home() {
           {/* style="background-image: var(--subdomain-gradient), url('/images/coupes.webp');" */}
           <div className="bg-[url('/images/coupes.webp')] grid grid-rows-1 sm:flex-1 bg-cover bg-center min-h-[450px] p-8 m-4">
             <section>
-              <button>INFOS</button>
+              <button className="text-sm bg-font-color px-4 p-3">INFOS</button>
+              <div className="mt-6 text-shadow-sm">
+                <div className="text-lg font-extrabold">Écoute</div>
+                <p className="mt-2">Adaptation à votre environnement et travail en coordination avec l'architecte.</p>
+              </div>
+            </section>
+          </div>
+          {/* style="background-image: var(--subdomain-gradient), url('/images/coupes.webp');" */}
+          <div className="bg-[url('/images/tools.webp')] grid grid-rows-1 sm:flex-1 bg-cover bg-center min-h-[450px] p-8 m-4">
+            <section>
+              <button className="text-sm bg-font-color px-4 p-3">INFOS</button>
               <div className="mt-6 text-shadow-sm">
                 <div className="text-lg font-extrabold">Écoute</div>
                 <p className="mt-2">Adaptation à votre environnement et travail en coordination avec l'architecte.</p>
