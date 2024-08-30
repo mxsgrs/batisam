@@ -51,10 +51,10 @@ export default function Home() {
               </div>
               <div className="leading-8 p-5">
                 <p className="sm:mt-4">
-                  BATISAM est une entreprise de maçonnerie renommée, spécialisée dans la construction et la rénovation de bâtiments résidentiels et commerciaux. Forte de plusieurs années d'expérience, elle se distingue par la qualité de ses réalisations et son souci du détail. L'équipe de BATISAM, composée de maçons qualifiés et passionnés, utilise des matériaux de première qualité pour garantir la durabilité et l'esthétique des ouvrages.
+                  {"BATISAM est une entreprise de maçonnerie renommée, spécialisée dans la construction et la rénovation de bâtiments résidentiels et commerciaux. Forte de plusieurs années d'expérience, elle se distingue par la qualité de ses réalisations et son souci du détail. L'équipe de BATISAM, composée de maçons qualifiés et passionnés, utilise des matériaux de première qualité pour garantir la durabilité et l'esthétique des ouvrages."}
                 </p>
                 <p className="mt-4">
-                  En plus des travaux de maçonnerie traditionnelle, l'entreprise offre des services de rénovation complète, incluant la restauration de façades et la création de structures sur mesure. La satisfaction de la clientèle est au cœur de ses priorités, assurant des projets livrés dans les délais impartis et respectant les budgets établis. BATISAM est votre partenaire de confiance pour tous vos projets de construction et de rénovation.
+                  {"En plus des travaux de maçonnerie traditionnelle, l'entreprise offre des services de rénovation complète, incluant la restauration de façades et la création de structures sur mesure. La satisfaction de la clientèle est au cœur de ses priorités, assurant des projets livrés dans les délais impartis et respectant les budgets établis. BATISAM est votre partenaire de confiance pour tous vos projets de construction et de rénovation."}
                 </p>
               </div>
             </section>
@@ -85,7 +85,7 @@ export default function Home() {
           <section>
             <h2 className="text-2xl md:text-5xl font-semibold">Construction</h2>
             <p className="mt-11 sm:mt-12">
-              BATISAM est une société de maçonnerie réputée offrant une gamme complète de services de construction pour répondre à tous vos besoins. Spécialisée dans la construction neuve, la rénovation et la restauration, l'entreprise excelle dans la réalisation de projets résidentiels, commerciaux et industriels. Les services incluent la pose de briques, de pierres et de blocs, ainsi que la construction de murs porteurs et de fondations. BATISAM s'engage à utiliser des matériaux de haute qualité et à respecter les délais impartis. Avec une équipe de professionnels qualifiés, l'entreprise garantit des travaux durables et conformes aux normes en vigueur.
+              {"BATISAM est une société de maçonnerie réputée offrant une gamme complète de services de construction pour répondre à tous vos besoins. Spécialisée dans la construction neuve, la rénovation et la restauration, l'entreprise excelle dans la réalisation de projets résidentiels, commerciaux et industriels. Les services incluent la pose de briques, de pierres et de blocs, ainsi que la construction de murs porteurs et de fondations. BATISAM s'engage à utiliser des matériaux de haute qualité et à respecter les délais impartis. Avec une équipe de professionnels qualifiés, l'entreprise garantit des travaux durables et conformes aux normes en vigueur."}
             </p>
             <button className="text-sm font-semibold text-white bg-font-color px-6 py-3 mt-8">INFORMATIONS</button>
           </section>
@@ -95,7 +95,7 @@ export default function Home() {
           <section>
             <h2 className="text-2xl md:text-5xl font-semibold">Renovation</h2>
             <p className="mt-11 sm:mt-12">
-              BATISAM offre des services complets de rénovation pour transformer et moderniser vos espaces résidentiels et commerciaux. Spécialisée dans la rénovation intérieure et extérieure, l'entreprise s'occupe de la démolition, de la reconstruction, de la pose de nouveaux revêtements et de l'isolation. Les artisans de BATISAM travaillent avec soin pour préserver le caractère original des bâtiments tout en intégrant des éléments modernes. Qu'il s'agisse de rénover une cuisine, une salle de bains, ou de réaménager un espace complet, l'entreprise garantit des résultats impeccables, respectant les normes et vos attentes. Leur expertise assure des travaux de qualité, réalisés dans les délais impartis.
+              {"BATISAM offre des services complets de rénovation pour transformer et moderniser vos espaces résidentiels et commerciaux. Spécialisée dans la rénovation intérieure et extérieure, l'entreprise s'occupe de la démolition, de la reconstruction, de la pose de nouveaux revêtements et de l'isolation. Les artisans de BATISAM travaillent avec soin pour préserver le caractère original des bâtiments tout en intégrant des éléments modernes. Qu'il s'agisse de rénover une cuisine, une salle de bains, ou de réaménager un espace complet, l'entreprise garantit des résultats impeccables, respectant les normes et vos attentes. Leur expertise assure des travaux de qualité, réalisés dans les délais impartis."}
             </p>
             <button className="text-sm font-semibold text-white bg-font-color px-6 py-3 mt-8">DÉTAILS</button>
           </section>
@@ -117,7 +117,7 @@ export default function Home() {
               <button className="text-sm font-semibold bg-font-color px-4 p-3">INFOS</button>
               <div className="mt-6 drop-shadow-lg">
                 <div className="text-lg font-extrabold">Écoute</div>
-                <p className="mt-2">Adaptation à votre environnement et travail en coordination avec l'architecte.</p>
+                <p className="mt-2">{"Adaptation à votre environnement et travail en coordination avec l'architecte."}</p>
               </div>
             </section>
           </div>
