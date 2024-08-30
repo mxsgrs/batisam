@@ -11,13 +11,13 @@ export default function Home() {
     <div>
       <div className="bg-background-color pb-20">
         <div className="flex items-center justify-center bg-[linear-gradient(to_top,rgba(0,0,0,.34),rgba(0,0,0,.34)),url('/images/btp.webp')] bg-cover bg-no-repeat min-h-[660px]">
-          <section className="text-white max-w-2xl mx-7 rise-up-animation">
-            <h1 className="text-2xl text-center font-bold md:text-6xl">Construisez votre avenir avec nous.</h1>
-            <p className="text-secondary text-center mt-4 md:text-2xl">Découvrez notre entreprise de maçonnerie.</p>
+          <section className="text-white max-w-64 sm:max-w-2xl mx-7 rise-up-animation">
+            <h1 className="text-[2.625rem]/[3.125rem] text-center font-bold md:text-6xl">Construisez votre avenir avec nous.</h1>
+            <p className="text-xl text-secondary text-center mt-4 md:text-2xl">Découvrez notre entreprise de maçonnerie.</p>
           </section>
         </div>
         <div className="bg-white shadow-lg py-4 sm:max-w-7xl sm:px-6 sm:mt-[-50px] mx-auto">
-          <div className="sm:flex sm:flex-row sm:justify-between gap-8 p-10 mr-6">
+          <div className="space-y-6 sm:space-y-0 sm:flex sm:flex-row sm:justify-between gap-8 p-5 sm:p-10 mr-6">
             <div className="flex flex-row gap-8">
               <HomeIcon className="size-10 text-secondary bg-primary-color rounded p-2 mt-2 sm:size-14" />
               <section>
@@ -45,13 +45,13 @@ export default function Home() {
 
       <div className="bg-background-color">
         <div className="max-w-screen-xl mx-auto">
-          <div className="pb-18 mx-4 sm:pb-32">
+          <div className="pb-24 mx-4 sm:pb-32">
             <section className="gap-12 lg:flex lg:flex-row sm:gap-16">
               <div className="pb-5 px-5 sm:pb-5 sm:px-5">
                 <h2 className="text-4xl/[3rem] sm:text-6xl/[5rem] font-semibold">Les professionels pour vos travaux de maçonnerie.</h2>
               </div>
               <div className="leading-8 p-5">
-                <p className="mt-4">
+                <p className="sm:mt-4">
                   BATISAM est une entreprise de maçonnerie renommée, spécialisée dans la construction et la rénovation de bâtiments résidentiels et commerciaux. Forte de plusieurs années d'expérience, elle se distingue par la qualité de ses réalisations et son souci du détail. L'équipe de BATISAM, composée de maçons qualifiés et passionnés, utilise des matériaux de première qualité pour garantir la durabilité et l'esthétique des ouvrages.
                 </p>
                 <p className="mt-4">
@@ -104,9 +104,9 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="text-white bg-primary-color text-f7f7f7">
+      <div className="text-white drop-shadow-lg bg-primary-color">
         <div className="py-28 sm:flex sm:flex-row sm:w-full">
-          <div className="bg-[linear-gradient(to_bottom,rgba(34,193,195,0),rgba(84,77,73,.83)),url('/images/bricks.webp')] grid grid-rows-1 sm:flex-1 bg-cover bg-center min-h-[450px] p-8 m-4">
+          <div className="bg-[var(--subdomain-gradient),url('/images/bricks.webp')] grid grid-rows-1 sm:flex-1 bg-cover bg-center min-h-[450px] p-8 m-4">
             <section className="mt-auto">
               <button className="text-sm font-semibold bg-font-color px-4 p-3">INFOS</button>
               <div className="mt-6 text-shadow-sm">
@@ -115,7 +115,7 @@ export default function Home() {
               </div>
             </section>
           </div>
-          <div className="bg-[linear-gradient(to_bottom,rgba(34,193,195,0),rgba(84,77,73,.83)),url('/images/coupes.webp')] grid grid-rows-1 sm:flex-1 bg-cover bg-center min-h-[450px] p-8 m-4">
+          <div className="bg-[var(--subdomain-gradient),url('/images/coupes.webp')] grid grid-rows-1 sm:flex-1 bg-cover bg-center min-h-[450px] p-8 m-4">
             <section className="mt-auto">
               <button className="text-sm font-semibold bg-font-color px-4 p-3">INFOS</button>
               <div className="mt-6 text-shadow-sm">
@@ -124,12 +124,12 @@ export default function Home() {
               </div>
             </section>
           </div>
-          <div className="bg-[linear-gradient(to_bottom,rgba(34,193,195,0),rgba(84,77,73,.83)),url('/images/tools.webp')] grid grid-rows-1 sm:flex-1 bg-cover bg-center min-h-[450px] p-8 m-4">
+          <div className="bg-[var(--subdomain-gradient),url('/images/tools.webp')] grid grid-rows-1 sm:flex-1 bg-cover bg-center min-h-[450px] p-8 m-4">
             <section className="mt-auto">
               <button className="text-sm font-semibold bg-font-color px-4 p-3">INFOS</button>
               <div className="mt-6 text-shadow-sm">
-                <div className="text-lg font-extrabold">Écoute</div>
-                <p className="mt-2">Adaptation à votre environnement et travail en coordination avec l'architecte.</p>
+                <div className="text-lg font-extrabold">Expertise</div>
+                <p className="mt-2">Depuis 1996 dans la région, au service du privé et du public.</p>
               </div>
             </section>
           </div>
