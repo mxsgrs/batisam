@@ -30,21 +30,21 @@ export default function Content() {
                         <div className="flex flex-row gap-8">
                             <HomeIcon className="size-10 sm:size-12 lg:size-14 text-secondary bg-primary-color rounded p-2 mt-2" />
                             <section>
-                                <div className="text-base font-extrabold sm:text-xl">Adresse</div>
+                                <div className="text-base md:text-lg lg:text-xl font-extrabold">Adresse</div>
                                 <p className="mt-1">49 Avenue Jean Jaurès <br />84290 Sainte-Cécile-les-Vignes</p>
                             </section>
                         </div>
                         <div className="flex flex-row gap-8">
                             <EnvelopeIcon className="size-10 sm:size-12 lg:size-14 text-secondary bg-primary-color rounded p-2 mt-2" />
                             <section>
-                                <div className="text-base font-extrabold sm:text-xl">Mail</div>
+                                <div className="text-base md:text-lg lg:text-xl font-extrabold">Mail</div>
                                 <p className="mt-1">batisam@gmail.com</p>
                             </section>
                         </div>
                         <div className="flex flex-row gap-8">
                             <PhoneIcon className="size-10 sm:size-12 lg:size-14 text-secondary bg-primary-color rounded p-2 mt-2" />
                             <section>
-                                <div className="text-base font-extrabold sm:text-xl">Téléphone</div>
+                                <div className="text-base md:text-lg lg:text-xl font-extrabold">Téléphone</div>
                                 <p className="mt-1">83 89 82 01 98</p>
                             </section>
                         </div>
@@ -88,9 +88,9 @@ export default function Content() {
                     </div>
                 </div>
             </div>
-            <div className="sm:grid sm:grid-cols-2">
-                <div className="bg-[url('/images/masonry.webp')] bg-cover bg-center min-h-[100vw] sm:min-h-[300px] sm:order-1"></div>
-                <div className="bg-white px-7 py-20 sm:px-28 sm:py-28 leading-7 sm:order-2">
+            <div className="lg:grid lg:grid-cols-2">
+                <div className="bg-[url('/images/masonry.webp')] bg-cover bg-center min-h-[100vw] sm:min-h-[300px] lg:order-1"></div>
+                <div className="bg-white px-7 py-20 sm:px-28 sm:py-28 leading-7 lg:order-2">
                     <section>
                         <h2 className="text-2xl md:text-5xl font-semibold">Construction</h2>
                         <p className="mt-11 sm:mt-12">
@@ -99,8 +99,8 @@ export default function Content() {
                         <button className="text-sm font-semibold text-white bg-font-color px-6 py-3 mt-8">INFORMATIONS</button>
                     </section>
                 </div>
-                <div className="bg-[url('/images/renovation.webp')] bg-cover bg-center min-h-[100vw] sm:min-h-[300px] sm:order-4"></div>
-                <div className="bg-white px-7 py-20 sm:px-28 sm:py-28 leading-7 sm:order-3">
+                <div className="bg-[url('/images/renovation.webp')] bg-cover bg-center min-h-[100vw] sm:min-h-[300px] lg:order-4"></div>
+                <div className="bg-white px-7 py-20 sm:px-28 sm:py-28 leading-7 lg:order-3">
                     <section>
                         <h2 className="text-2xl md:text-5xl font-semibold">Renovation</h2>
                         <p className="mt-11 sm:mt-12">
@@ -111,8 +111,8 @@ export default function Content() {
                 </div>
             </div>
             <div className="text-white bg-primary-color">
-                <div className="sm:flex sm:flex-row max-w-screen-xl sm:w-full py-28 mx-auto">
-                    <div className="bg-[var(--subdomain-gradient),url('/images/bricks.webp')] grid grid-rows-1 sm:flex-1 bg-cover bg-center min-h-[450px] p-8 m-4">
+                <div className="md:flex md:flex-row max-w-screen-xl md:w-full py-28 mx-auto">
+                    <div className="bg-[var(--subdomain-gradient),url('/images/bricks.webp')] grid grid-rows-1 md:flex-1 bg-cover bg-center min-h-[450px] p-8 m-4">
                         <section className="mt-auto">
                             <button className="text-sm font-semibold bg-font-color px-4 p-3">INFOS</button>
                             <div className="mt-6 drop-shadow-lg">
@@ -121,7 +121,7 @@ export default function Content() {
                             </div>
                         </section>
                     </div>
-                    <div className="bg-[var(--subdomain-gradient),url('/images/coupes.webp')] grid grid-rows-1 sm:flex-1 bg-cover bg-center min-h-[450px] p-8 m-4">
+                    <div className="bg-[var(--subdomain-gradient),url('/images/coupes.webp')] grid grid-rows-1 md:flex-1 bg-cover bg-center min-h-[450px] p-8 m-4">
                         <section className="mt-auto">
                             <button className="text-sm font-semibold bg-font-color px-4 p-3">INFOS</button>
                             <div className="mt-6 drop-shadow-lg">
@@ -130,7 +130,7 @@ export default function Content() {
                             </div>
                         </section>
                     </div>
-                    <div className="bg-[var(--subdomain-gradient),url('/images/tools.webp')] grid grid-rows-1 sm:flex-1 bg-cover bg-center min-h-[450px] p-8 m-4">
+                    <div className="bg-[var(--subdomain-gradient),url('/images/tools.webp')] grid grid-rows-1 md:flex-1 bg-cover bg-center min-h-[450px] p-8 m-4">
                         <section className="mt-auto">
                             <button className="text-sm font-semibold bg-font-color px-4 p-3">INFOS</button>
                             <div className="mt-6 drop-shadow-lg">
