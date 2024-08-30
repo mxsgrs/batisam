@@ -42,7 +42,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
       <div className="bg-background-color">
         <div className="max-w-screen-xl mx-auto">
           <div className="pb-24 mx-4 sm:pb-32">
@@ -80,7 +79,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
       <div className="sm:grid sm:grid-cols-2">
         <div className="bg-[url('/images/masonry.webp')] bg-cover bg-center min-h-[100vw] sm:min-h-[300px] sm:order-1"></div>
         <div className="bg-white px-7 py-20 sm:px-28 sm:py-28 leading-7 sm:order-2">
@@ -103,7 +101,6 @@ export default function Home() {
           </section>
         </div>
       </div>
-
       <div className="text-white bg-primary-color">
         <div className="sm:flex sm:flex-row max-w-screen-xl sm:w-full py-28 mx-auto">
           <div className="bg-[var(--subdomain-gradient),url('/images/bricks.webp')] grid grid-rows-1 sm:flex-1 bg-cover bg-center min-h-[450px] p-8 m-4">
