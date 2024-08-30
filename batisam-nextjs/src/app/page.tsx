@@ -11,29 +11,29 @@ export default function Home() {
     <div>
       <div className="bg-background-color pb-20">
         <div className="flex items-center justify-center bg-[linear-gradient(to_top,rgba(0,0,0,.34),rgba(0,0,0,.34)),url('/images/btp.webp')] bg-cover bg-no-repeat min-h-[660px]">
-          <section className="text-white max-w-64 sm:max-w-2xl mx-7 rise-up-animation">
-            <h1 className="text-[2.625rem]/[3.125rem] text-center font-bold md:text-6xl">Construisez votre avenir avec nous.</h1>
-            <p className="text-xl text-secondary text-center mt-4 md:text-2xl">Découvrez notre entreprise de maçonnerie.</p>
+          <section className="text-white max-w-64 sm:max-w-xl md:max-w-2xl mx-7 rise-up-animation">
+            <h1 className="text-[2.625rem]/[3.125rem] md:text-5xl lg:text-6xl text-center font-bold">Construisez votre avenir avec nous.</h1>
+            <p className="text-xl md:text-xl lg:text-2xl text-secondary text-center mt-4">Découvrez notre entreprise de maçonnerie.</p>
           </section>
         </div>
         <div className="bg-white shadow-lg py-4 sm:max-w-7xl sm:px-6 sm:mt-[-50px] mx-auto">
-          <div className="space-y-6 sm:space-y-0 sm:flex sm:flex-row sm:justify-between gap-8 p-5 sm:p-10 mr-6">
+          <div className="space-y-6 md:space-y-0 md:flex md:flex-row md:justify-between gap-8 p-5 md:p-7 lg:p-10 mr-6">
             <div className="flex flex-row gap-8">
-              <HomeIcon className="size-10 text-secondary bg-primary-color rounded p-2 mt-2 sm:size-14" />
+              <HomeIcon className="size-10 sm:size-12 lg:size-14 text-secondary bg-primary-color rounded p-2 mt-2" />
               <section>
                 <div className="text-base font-extrabold sm:text-xl">Adresse</div>
                 <p className="mt-1">49 Avenue Jean Jaurès <br />84290 Sainte-Cécile-les-Vignes</p>
               </section>
             </div>
             <div className="flex flex-row gap-8">
-              <EnvelopeIcon className="size-10 text-secondary bg-primary-color rounded p-2 mt-2 sm:size-14" />
+              <EnvelopeIcon className="size-10 sm:size-12 lg:size-14 text-secondary bg-primary-color rounded p-2 mt-2" />
               <section>
                 <div className="text-base font-extrabold sm:text-xl">Mail</div>
                 <p className="mt-1">batisam@gmail.com</p>
               </section>
             </div>
             <div className="flex flex-row gap-8">
-              <PhoneIcon className="size-10 text-secondary bg-primary-color rounded p-2 mt-2 sm:size-14" />
+              <PhoneIcon className="size-10 sm:size-12 lg:size-14 text-secondary bg-primary-color rounded p-2 mt-2" />
               <section>
                 <div className="text-base font-extrabold sm:text-xl">Téléphone</div>
                 <p className="mt-1">83 89 82 01 98</p>
@@ -48,7 +48,7 @@ export default function Home() {
           <div className="pb-24 mx-4 sm:pb-32">
             <section className="gap-12 lg:flex lg:flex-row sm:gap-16">
               <div className="pb-5 px-5 sm:pb-5 sm:px-5">
-                <h2 className="text-4xl/[3rem] sm:text-6xl/[5rem] font-semibold">Les professionels pour vos travaux de maçonnerie.</h2>
+                <h2 className="text-4xl/[3rem] md:text-5xl/[4rem] lg:text-6xl/[5rem] font-semibold">Les professionels pour vos travaux de maçonnerie.</h2>
               </div>
               <div className="leading-8 p-5">
                 <p className="sm:mt-4">
@@ -61,19 +61,19 @@ export default function Home() {
             </section>
             <section className="mt-4 sm:flex sm:justify-between sm:mx-12 sm:mt-16">
               <div className="flex flex-col items-center mt-12">
-                <DocumentTextIcon className="size-10 text-secondary bg-primary-color rounded p-2 mt-2 sm:size-14" />
+                <DocumentTextIcon className="size-10 sm:size-12 lg:size-14 text-secondary bg-primary-color rounded p-2 mt-2" />
                 <p className="mt-3 font-semibold">Commande</p>
               </div>
               <div className="flex flex-col items-center mt-12">
-                <CalendarDaysIcon className="size-10 text-secondary bg-primary-color rounded p-2 mt-2 sm:size-14" />
+                <CalendarDaysIcon className="size-10 sm:size-12 lg:size-14 text-secondary bg-primary-color rounded p-2 mt-2" />
                 <p className="mt-3 font-semibold">Planification</p>
               </div>
               <div className="flex flex-col items-center mt-12">
-                <HomeIcon className="size-10 text-secondary bg-primary-color rounded p-2 mt-2 sm:size-14" />
+                <HomeIcon className="size-10 sm:size-12 lg:size-14 text-secondary bg-primary-color rounded p-2 mt-2" />
                 <p className="mt-3 font-semibold">Travaux</p>
               </div>
               <div className="flex flex-col items-center mt-12">
-                <FaceSmileIcon className="size-10 text-secondary bg-primary-color rounded p-2 mt-2 sm:size-14" />
+                <FaceSmileIcon className="size-10 sm:size-12 lg:size-14 text-secondary bg-primary-color rounded p-2 mt-2" />
                 <p className="mt-3 font-semibold">Profitez</p>
               </div>
             </section>
@@ -104,12 +104,12 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="text-white drop-shadow-lg bg-primary-color">
-        <div className="py-28 sm:flex sm:flex-row sm:w-full">
+      <div className="text-white bg-primary-color">
+        <div className="sm:flex sm:flex-row max-w-screen-xl sm:w-full py-28 mx-auto">
           <div className="bg-[var(--subdomain-gradient),url('/images/bricks.webp')] grid grid-rows-1 sm:flex-1 bg-cover bg-center min-h-[450px] p-8 m-4">
             <section className="mt-auto">
               <button className="text-sm font-semibold bg-font-color px-4 p-3">INFOS</button>
-              <div className="mt-6 text-shadow-sm">
+              <div className="mt-6 drop-shadow-lg">
                 <div className="text-lg font-extrabold">Durabilité</div>
                 <p className="mt-2">Utilisation de matériaux recyclés et traitement des débris.</p>
               </div>
@@ -118,7 +118,7 @@ export default function Home() {
           <div className="bg-[var(--subdomain-gradient),url('/images/coupes.webp')] grid grid-rows-1 sm:flex-1 bg-cover bg-center min-h-[450px] p-8 m-4">
             <section className="mt-auto">
               <button className="text-sm font-semibold bg-font-color px-4 p-3">INFOS</button>
-              <div className="mt-6 text-shadow-sm">
+              <div className="mt-6 drop-shadow-lg">
                 <div className="text-lg font-extrabold">Écoute</div>
                 <p className="mt-2">Adaptation à votre environnement et travail en coordination avec l'architecte.</p>
               </div>
@@ -127,7 +127,7 @@ export default function Home() {
           <div className="bg-[var(--subdomain-gradient),url('/images/tools.webp')] grid grid-rows-1 sm:flex-1 bg-cover bg-center min-h-[450px] p-8 m-4">
             <section className="mt-auto">
               <button className="text-sm font-semibold bg-font-color px-4 p-3">INFOS</button>
-              <div className="mt-6 text-shadow-sm">
+              <div className="mt-6 drop-shadow-lg">
                 <div className="text-lg font-extrabold">Expertise</div>
                 <p className="mt-2">Depuis 1996 dans la région, au service du privé et du public.</p>
               </div>
