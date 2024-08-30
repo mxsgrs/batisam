@@ -3,19 +3,19 @@ import type { MetadataRoute } from 'next'
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: 'https://batisam-construction.com',
+      url: 'https://batisam-construction.fr',
       lastModified: new Date(),
       changeFrequency: 'yearly',
       priority: 1
     },
     {
-      url: 'https://batisam-construction/mentions-legales',
+      url: 'https://batisam-construction.fr/mentions-legales',
       lastModified: new Date(),
       changeFrequency: 'yearly',
       priority: 1
     },
     {
-      url: 'https://batisam-construction/politique-de-confidentialite',
+      url: 'https://batisam-construction.fr/politique-de-confidentialite',
       lastModified: new Date(),
       changeFrequency: 'yearly',
       priority: 1
