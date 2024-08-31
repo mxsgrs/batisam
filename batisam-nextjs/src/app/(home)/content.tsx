@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import { HomeIcon, EnvelopeIcon, PhoneIcon, DocumentTextIcon, CalendarDaysIcon, FaceSmileIcon } from "@heroicons/react/24/outline";
 import { useState, useEffect } from "react";
@@ -19,30 +19,30 @@ export default function Content() {
     return (
         <div>
             <div className="bg-background-color pb-20">
-                <div className="flex items-center justify-center bg-[linear-gradient(to_top,rgba(0,0,0,.34),rgba(0,0,0,.34)),url('/images/btp.webp')] bg-cover bg-no-repeat min-h-[660px]">
+                <div className="flex items-center justify-center bg-[var(--hero-gradient),url('/images/btp.webp')] bg-cover min-h-[660px]">
                     <section className="text-white max-w-64 sm:max-w-xl md:max-w-2xl mx-7 rise-up-animation">
                         <h1 className="text-[2.625rem]/[3.125rem] md:text-5xl lg:text-6xl text-center font-bold">Construisez votre avenir avec nous.</h1>
                         <p className="text-xl md:text-xl lg:text-2xl text-secondary text-center mt-4">Découvrez notre entreprise de maçonnerie.</p>
                     </section>
                 </div>
                 <div className="bg-white shadow-lg py-4 sm:max-w-7xl sm:px-6 sm:mt-[-50px] mx-auto">
-                    <div className="space-y-6 md:space-y-0 md:flex md:flex-row md:justify-between gap-8 p-5 md:p-7 lg:p-10 mr-6">
+                    <div className="space-y-6 lg:space-y-0 lg:flex lg:flex-row lg:justify-between gap-8 p-5 md:p-7 lg:p-10 mr-6">
                         <div className="flex flex-row gap-8">
-                            <HomeIcon className="size-10 sm:size-12 lg:size-14 text-secondary bg-primary-color rounded p-2 mt-2" />
+                            <HomeIcon className="default-icon" />
                             <section>
                                 <div className="text-base md:text-lg lg:text-xl font-extrabold">Adresse</div>
                                 <p className="mt-1">49 Avenue Jean Jaurès <br />84290 Sainte-Cécile-les-Vignes</p>
                             </section>
                         </div>
                         <div className="flex flex-row gap-8">
-                            <EnvelopeIcon className="size-10 sm:size-12 lg:size-14 text-secondary bg-primary-color rounded p-2 mt-2" />
+                            <EnvelopeIcon className="default-icon" />
                             <section>
                                 <div className="text-base md:text-lg lg:text-xl font-extrabold">Mail</div>
                                 <p className="mt-1">batisam@gmail.com</p>
                             </section>
                         </div>
                         <div className="flex flex-row gap-8">
-                            <PhoneIcon className="size-10 sm:size-12 lg:size-14 text-secondary bg-primary-color rounded p-2 mt-2" />
+                            <PhoneIcon className="default-icon" />
                             <section>
                                 <div className="text-base md:text-lg lg:text-xl font-extrabold">Téléphone</div>
                                 <p className="mt-1">83 89 82 01 98</p>
@@ -69,19 +69,19 @@ export default function Content() {
                         </section>
                         <section className="mt-4 sm:flex sm:justify-between sm:mx-12 sm:mt-16">
                             <div className="flex flex-col items-center mt-12">
-                                <DocumentTextIcon className="size-10 sm:size-12 lg:size-14 text-secondary bg-primary-color rounded p-2 mt-2" />
+                                <DocumentTextIcon className="default-icon" />
                                 <p className="mt-3 font-semibold">Commande</p>
                             </div>
                             <div className="flex flex-col items-center mt-12">
-                                <CalendarDaysIcon className="size-10 sm:size-12 lg:size-14 text-secondary bg-primary-color rounded p-2 mt-2" />
+                                <CalendarDaysIcon className="default-icon" />
                                 <p className="mt-3 font-semibold">Planification</p>
                             </div>
                             <div className="flex flex-col items-center mt-12">
-                                <HomeIcon className="size-10 sm:size-12 lg:size-14 text-secondary bg-primary-color rounded p-2 mt-2" />
+                                <HomeIcon className="default-icon" />
                                 <p className="mt-3 font-semibold">Travaux</p>
                             </div>
                             <div className="flex flex-col items-center mt-12">
-                                <FaceSmileIcon className="size-10 sm:size-12 lg:size-14 text-secondary bg-primary-color rounded p-2 mt-2" />
+                                <FaceSmileIcon className="default-icon" />
                                 <p className="mt-3 font-semibold">Profitez</p>
                             </div>
                         </section>
