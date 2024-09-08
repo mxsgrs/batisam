@@ -9,16 +9,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1
     },
     {
-      url: 'https://batisam-construction.fr/mentions-legales',
+      url: 'https://batisam-construction.fr/legal',
       lastModified: new Date(),
       changeFrequency: 'monthly',
-      priority: 1
+      priority: .8
     },
     {
-      url: 'https://batisam-construction.fr/politique-de-confidentialite',
+      url: 'https://batisam-construction.fr/privacy-policy',
       lastModified: new Date(),
       changeFrequency: 'monthly',
-      priority: 1
+      priority: .8
     },
   ]
 }

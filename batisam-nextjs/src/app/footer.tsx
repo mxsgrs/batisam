@@ -27,11 +27,11 @@ export default function Footer() {
                     </div>
                     <div className="text-gray-400 text-sm border-t mt-48 border-gray-400 border-primary py-4">
                         © {year} BATISAM |{' '}
-                        <Link href="/mentions-legales" className="hover:text-white">
+                        <Link href="/legal" className="hover:text-white">
                             Mentions légales
                         </Link>{' '}
                         |{' '}
-                        <Link href="/politique-de-confidentialite" className="hover:text-white">
+                        <Link href="/privacy-policy" className="hover:text-white">
                             Politique de confidentialité
                         </Link>
                     </div>
