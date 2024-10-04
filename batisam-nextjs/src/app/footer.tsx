@@ -13,7 +13,7 @@ export default function Footer() {
                     <div className="flex justify-between">
                         <div>
                             <section>
-                                <div className={`text-6xl font-bold ${bebasNeue.className}`}>BATISAM</div>
+                                <div className={`text-[2.625rem] md:text-5xl lg:text-6xl font-bold ${bebasNeue.className}`}>BATISAM</div>
                                 <p className="text-gray-400 leading-[1.875rem]">
                                     49 Avenue Jean Jaurès <br />
                                     84290 Sainte-Cécile-les-Vignes <br />
